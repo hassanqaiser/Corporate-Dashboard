@@ -9,7 +9,7 @@
   function MainController($timeout, Auth, dataService) {
     var vm = this;
     console.log('in main controller');
-    //Auth.loginAnonymously();
+    Auth.loginAnonymously();
 
     var map = L.map("mapid", {
        maxZoom: 13
